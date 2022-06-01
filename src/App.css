@@ -24,6 +24,38 @@
   color: white;
 }
 
+.App-logo-hitam {
+  background-color: #282c34;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.App-button {
+  background-color: #eff1f4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.App-back-Card {
+  background-image: url('./../src/Assets/motif.png');
+  /* background-color: #335497; */
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.App_barcode {
+  background-image: url('./../src/');
+  /* background-color: #335497; */
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+/* .App-home1{} */
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +64,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
