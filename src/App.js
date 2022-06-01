@@ -1,14 +1,13 @@
 import logo from './logo-technopartner.png';
 import './App.css';
 import { Button, Card, Form, Input, Row, Col } from 'antd';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout } from 'antd';
 import Home from './Page/home';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Indexmenu from './Page/indexmenu';
 
 
-const { Header, Content, Footer } = Layout;
+const { Content } = Layout;
 
 export default function App() {
   const [idpage, _idpage] = useState('0')
